@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Final Project</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="final.css">
+    </head>
+    <body>
+        <button>Toggle Bitcoin</button>
+        <div id="desc">
+            <div id="title">
+                <span class="large">A Historical Look at Cryptocurrency</span>
+            </div>
+            <footer>
+                <br>
+                A d3.js visualization by Matthew Days and Melech Maglasang
+                <br>
+                <br>
+                - Toggle on/off bitcoin's dominating market capitalization
+                <br> 
+                - Identify the cryptocurrency of interest using the hover feature
+                <br>
+                - Select a metric of interest to compare to search popularity
+                <br>
+                - Click the cryptocurrency of interest in the streamgraph
+            </footer>
+        </div>
+
+        <svg  id="svg_1st" width="1738" height="450"></svg>
+
+        <svg id="svg_2nd" width="1060" height="370"></svg>
+        <div id="CryptoDiv" style="width:50%;
+             background-color:#26292E;" class="radio">
+            <p><b>Cryptocurrency Data</b>
+        </div>
+
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+        <script src="stream.js"></script>
+        <br>
+
+    </body>
+</html>

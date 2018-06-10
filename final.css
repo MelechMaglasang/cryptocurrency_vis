@@ -1,0 +1,116 @@
+
+/* 
+    Created on : Nov 19, 2017, 8:31:06 PM
+    Author     : Melech
+*/
+
+
+
+body {
+    font: 10px sans-serif;
+    color: white;
+    margin: 0;
+    background-color: #26292E;
+}
+
+path.line {
+    fill: none;
+    stroke: #666;
+    stroke-width: 1.5px;
+}
+
+path.area {
+    fill: #e7e7e7;
+}
+
+.x.axis text{
+    fill: #fff;
+}
+
+path {opacity : 1}
+
+path:hover {
+    opacity : .5;
+    cursor:pointer;
+}
+.axis {
+    shape-rendering: crispEdges;
+}
+
+.x.axis line {
+    /*stroke: #d0d0d0;*/
+    stroke: #000;
+
+}
+
+.x.axis .minor {
+    stroke-opacity: .5;
+}
+
+.x.axis path {
+    display: none;
+}
+
+.y.axis line, .y.axis path {
+    
+    fill: none;
+    stroke: #000000;
+    /*stroke: #d0d0d0;*/
+
+}
+
+.guideline {
+    margin-right: 100px;
+    float: right;
+}
+
+
+/*radio toolbar inputs*/
+.radio-toolbar input[type="radio"]{
+    float: left;
+    margin-right: 15px;
+}
+
+.radio-toolbar label {
+    display: block;
+    margin: 20px;
+}
+
+#title div.large, #title span.large {
+    font-size: 36px;
+}
+footer {
+    /*color: #666;*/
+    font-size: 14px;
+}
+#desc {
+    position: absolute;
+    float:right;
+    z-index:-999;
+    top: 510px;
+    left: 1200px;
+    width: 400px;
+}
+
+
+g line{
+    opacity: .1;
+}
+
+button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: grey;
+}
